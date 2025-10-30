@@ -33,3 +33,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif !important; /* Change headline font */
 }
+
+/* This is the new rule for your name */
+.navbar .navbar-brand {
+  color: #5A4FCF !important; /* Change this hex code to your preferred color */
+}
