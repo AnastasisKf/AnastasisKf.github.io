@@ -7,7 +7,19 @@ nav: true
 nav_order: 3
 ---
 
-### Teaching Assistant
+### Teaching
 
-**Course Title (e.g., Econometrics)**, *University Name* (Spring 2023)
-*   Led weekly recitation sections for 50 undergraduate students.
+### Teaching
+
+During my PhD I gained teaching experience as a teaching assistant in the following courses:
+
+- **Macroeconomics II**,  (Master (MRes))
+  Universidad Carlos III de Madrid, 2021-2025
+
+- **Labour Economics**, (Bacehelor)
+    Universidad Carlos III de Madrid, 2021-2023
+
+- **Mathematics I**,  (Bacehelor)
+    Universidad Carlos III de Madrid, 2019-2020
+
+
