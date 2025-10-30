@@ -51,6 +51,10 @@ $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
 // -----------------------------------------------------------------------------
-// Fonts
-// -----------------------------------------------------------------------------
-$root-font-size: 1.4rem; // Increase this to make all text bigger
+/*******************************************************************************
+ * Custom Font Overrides
+ ******************************************************************************/
+
+:root {
+  --global-font-size: 1.2rem; // This is a 10% increase from the default. Change as needed.
+}
