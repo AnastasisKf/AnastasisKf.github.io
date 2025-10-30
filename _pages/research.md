@@ -2,15 +2,14 @@
 layout: page
 permalink: /research/
 title: Research
-description: "An overview of my research, including my job market paper and other working papers."
 nav: true
 nav_order: 2
 ---
 
 <!--### Job Market Paper-->
 
-**Efficiency and Redistributive Effects of Progressive Housing Taxation** (JMP)
-##### joint with Bohdan Kalinichenko
+## **Efficiency and Redistributive Effects of Progressive Housing Taxation (JMP)** 
+#### joint with Bohdan Kalinichenko
 <br>
 <!--[Paper PDF](/assets/pdf/JMP.pdf) | [Code & Data](https://github.com/your-username/your-repo)-->
 
@@ -20,7 +19,7 @@ nav_order: 2
 
 <!--### Other Working Papers-->
 
-**Wealth-Age Dynamics, the Housing Cycle and the
+## **Wealth-Age Dynamics, the Housing Cycle and the
 Recession in Spain**
 <br>
 [Paper PDF](/assets/pdf/Paper2.pdf)
