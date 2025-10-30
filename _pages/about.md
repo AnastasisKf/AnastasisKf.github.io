@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Phd candidate at Universidad Carlos III de Madrid. I work in quantitative macroeconomics, households finanance, wealth inequality and housing. 
+I am a Phd candidate at Universidad Carlos III de Madrid. My research explores topics in quantitative macroeconomics, households finanance, wealth inequality and housing markets. 
 
 I am on the 2025-2026 job market and CV [here](/assets/pdf/CV.pdf)
 
