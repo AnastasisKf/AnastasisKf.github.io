@@ -2,14 +2,9 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 3
 ---
-
-### Teaching
-
-### Teaching
 
 During my PhD I gained teaching experience as a teaching assistant in the following courses:
 
