@@ -33,46 +33,46 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", serif !important; /* Change headline font */
 }
-/* --- 1. Color and Font Weight for the name on the HOMEPAGE --- */
-/* Light Theme Name */
-.post-title,
-.post-title span {
-  color: #46398f !important;
-  font-weight: normal !important; /* This removes the bolding */
-  font-size: 1.9rem !important; /* This increases font of Title */
-}
-
-/* This OVERRIDES the default for the DARK THEME (Catch-all selectors) */
-html[data-theme="dark"] .post-title,
-html[data-theme="dark"] .post-title span,
-body.dark .post-title,
-body.dark .post-title span {
-  color: #b3aaff !important;
-  font-weight: normal !important;
-  font-size: 1.9rem !important;
-}
-
-// /* --- 1. Color, Font Weight, and FONT SIZE for the name on the HOMEPAGE --- */
-// /* Set the main style on the h1 container */
-// .post-title {
-//   font-size: 1.6rem !important;
-// }
-
-// /* Apply color and font-weight to both parts, and reset the inner span's size */
+// /* --- 1. Color and Font Weight for the name on the HOMEPAGE --- */
+// /* Light Theme Name */
 // .post-title,
 // .post-title span {
 //   color: #46398f !important;
-//   font-weight: normal !important;
-// }
-// .post-title span {
-//   font-size: inherit !important; /* This is the key fix */
+//   font-weight: normal !important; /* This removes the bolding */
+//   font-size: 1.9rem !important; /* This increases font of Title */
 // }
 
-// /* Dark Theme Name - applies color override */
-// html[data-theme="dark"] body.dark .post-title,
-// html[data-theme="dark"] body.dark .post-title span {
+// /* This OVERRIDES the default for the DARK THEME (Catch-all selectors) */
+// html[data-theme="dark"] .post-title,
+// html[data-theme="dark"] .post-title span,
+// body.dark .post-title,
+// body.dark .post-title span {
 //   color: #b3aaff !important;
+//   font-weight: normal !important;
+//   font-size: 1.9rem !important;
 // }
+
+/* --- 1. Color, Font Weight, and FONT SIZE for the name on the HOMEPAGE --- */
+/* Set the main style on the h1 container */
+.post-title {
+  font-size: 1.8rem !important;
+}
+
+/* Apply color and font-weight to both parts, and reset the inner span's size */
+.post-title,
+.post-title span {
+  color: #46398f !important;
+  font-weight: normal !important;
+}
+.post-title span {
+  font-size: inherit !important; /* This is the key fix */
+}
+
+/* Dark Theme Name - applies color override */
+html[data-theme="dark"] body.dark .post-title,
+html[data-theme="dark"] body.dark .post-title span {
+  color: #b3aaff !important;
+}
 
 
 
