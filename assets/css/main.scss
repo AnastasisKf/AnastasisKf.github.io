@@ -35,23 +35,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* --- 1. Color and Font Weight for the name on the HOMEPAGE --- */
 // /* Light Theme Name */
-// .post-title,
-// .post-title span {
-//   color: #46398f !important;
-//   font-weight: normal !important; /* This removes the bolding */
-// }
-
-html[data-theme="light"] body.light .post-title,
-html[data-theme="light"] body.light .post-title span {
+.post-title,
+.post-title span {
   color: #46398f !important;
-  font-weight: normal !important;
+  font-weight: normal !important; /* This removes the bolding */
 }
 
-/* Dark Theme Name */
-html[data-theme="dark"] body.dark .post-title,
-html[data-theme="dark"] body.dark .post-title span {
+/* This OVERRIDES the default for the DARK THEME (Catch-all selectors) */
+html[data-theme="dark"] .post-title,
+html[data-theme="dark"] .post-title span,
+body.dark .post-title,
+body.dark .post-title span {
   color: #b3aaff !important;
-  font-weight: normal !important; /* This also removes the bolding */
 }
 
 
@@ -64,23 +59,16 @@ html[data-theme="dark"] body.dark .post-title span {
 
 /* --- 3. Color and Font Weight for the name in the TOP NAVIGATION BAR --- */
 /* Light Theme Nav Bar Name */
-// .navbar .navbar-brand,
-// .navbar .navbar-brand * {
-//   color: #46398f !important;
-//   font-weight: normal !important;
-// }
-
-html[data-theme="light"] body.light .navbar .navbar-brand,
-html[data-theme="light"] body.light .navbar .navbar-brand * {
+.navbar .navbar-brand,
+.navbar .navbar-brand * {
   color: #46398f !important;
   font-weight: normal !important;
 }
 
-/* Dark Theme Nav Bar Name */
-html[data-theme="dark"] body.dark .navbar .navbar-brand,
-html[data-theme="dark"] body.dark .navbar .navbar-brand * {
-  color: #b3aaff !important;
+
+.navbar .navbar-brand,
+.navbar .navbar-brand * {
+  color: #46398f !important;
   font-weight: normal !important;
 }
-
 
