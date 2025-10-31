@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 .post-title span {
   color: #46398f !important;
   font-weight: normal !important; /* This removes the bolding */
+  font-size: 1.1em !important; /* This increases font of Title */
 }
 
 /* This OVERRIDES the default for the DARK THEME (Catch-all selectors) */
@@ -47,6 +48,7 @@ html[data-theme="dark"] .post-title span,
 body.dark .post-title,
 body.dark .post-title span {
   color: #b3aaff !important;
+  font-size: 1.1em !important;
 }
 
 
