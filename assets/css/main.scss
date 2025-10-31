@@ -66,9 +66,11 @@ body.dark .post-title span {
 }
 
 
-.navbar .navbar-brand,
-.navbar .navbar-brand * {
-  color: #46398f !important;
-  font-weight: normal !important;
+/* This OVERRIDES the default for the DARK THEME (Catch-all selectors) */
+html[data-theme="dark"] .navbar .navbar-brand,
+html[data-theme="dark"] .navbar .navbar-brand *,
+body.dark .navbar .navbar-brand,
+body.dark .navbar .brand * {
+  color: #b3aaff !important;
 }
 
