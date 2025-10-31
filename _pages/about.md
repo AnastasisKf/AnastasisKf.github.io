@@ -7,7 +7,7 @@ profile:
   align: right
   image: prof_pic.png
   image_circular: true # crops the image to make it circular
-    more_info: >
+  more_info: >
     <p><a href="mailto:akoufaki@eco.uc3m.es">akoufaki@eco.uc3m.es</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
