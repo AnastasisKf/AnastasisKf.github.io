@@ -26,6 +26,13 @@ $max-content-width: {{ site.max_width }};
 
 /* --- CUSTOM OVERRIDES FOR ANASTASIOS'S SITE (FINAL V2) --- */
 
+body {
+  font-size: 1.3rem !important; /* Increase body font size by 10% */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lora", serif !important; /* Change headline font */
+}
 /* --- 1. Color and Font Weight for the name on the HOMEPAGE --- */
 /* Light Theme Name */
 .post-title,
