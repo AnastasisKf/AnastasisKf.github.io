@@ -34,11 +34,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", serif !important; /* Change headline font */
 }
 /* --- 1. Color and Font Weight for the name on the HOMEPAGE --- */
-/* Light Theme Name */
-.post-title,
-.post-title span {
+// /* Light Theme Name */
+// .post-title,
+// .post-title span {
+//   color: #46398f !important;
+//   font-weight: normal !important; /* This removes the bolding */
+// }
+
+html[data-theme="light"] body.light .post-title,
+html[data-theme="light"] body.light .post-title span {
   color: #46398f !important;
-  font-weight: normal !important; /* This removes the bolding */
+  font-weight: normal !important;
 }
 
 /* Dark Theme Name */
@@ -48,6 +54,8 @@ html[data-theme="dark"] body.dark .post-title span {
   font-weight: normal !important; /* This also removes the bolding */
 }
 
+
+
 /* --- 2. Increase font size on the HOMEPAGE body text --- */
 .post-title + article .clearfix p {
     font-size: 1.6rem !important;   /* CHANGED: Increased font size for a stronger presence */
@@ -56,8 +64,14 @@ html[data-theme="dark"] body.dark .post-title span {
 
 /* --- 3. Color and Font Weight for the name in the TOP NAVIGATION BAR --- */
 /* Light Theme Nav Bar Name */
-.navbar .navbar-brand,
-.navbar .navbar-brand * {
+// .navbar .navbar-brand,
+// .navbar .navbar-brand * {
+//   color: #46398f !important;
+//   font-weight: normal !important;
+// }
+
+html[data-theme="light"] body.light .navbar .navbar-brand,
+html[data-theme="light"] body.light .navbar .navbar-brand * {
   color: #46398f !important;
   font-weight: normal !important;
 }
