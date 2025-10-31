@@ -24,3 +24,42 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
+/* --- CUSTOM OVERRIDES FOR ANASTASIOS'S SITE (FINAL V2) --- */
+
+/* --- 1. Color and Font Weight for the name on the HOMEPAGE --- */
+/* Light Theme Name */
+.post-title,
+.post-title span {
+  color: #46398f !important;
+  font-weight: normal !important; /* This removes the bolding */
+}
+
+/* Dark Theme Name */
+html[data-theme="dark"] body.dark .post-title,
+html[data-theme="dark"] body.dark .post-title span {
+  color: #b3aaff !important;
+  font-weight: normal !important; /* This also removes the bolding */
+}
+
+/* --- 2. Increase font size on the HOMEPAGE body text --- */
+.post-title + article .clearfix p {
+    font-size: 1.6rem !important;   /* CHANGED: Increased font size for a stronger presence */
+    line-height: 1.6 !important;     /* Kept line height for good readability */
+}
+
+/* --- 3. Color and Font Weight for the name in the TOP NAVIGATION BAR --- */
+/* Light Theme Nav Bar Name */
+.navbar .navbar-brand,
+.navbar .navbar-brand * {
+  color: #46398f !important;
+  font-weight: normal !important;
+}
+
+/* Dark Theme Nav Bar Name */
+html[data-theme="dark"] body.dark .navbar .navbar-brand,
+html[data-theme="dark"] body.dark .navbar .navbar-brand * {
+  color: #b3aaff !important;
+  font-weight: normal !important;
+}
+
+
