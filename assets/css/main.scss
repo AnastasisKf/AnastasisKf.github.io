@@ -69,9 +69,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Dark Theme Name - applies color override */
-html[data-theme="dark"] body.dark .post-title,
-html[data-theme="dark"] body.dark .post-title span {
+html[data-theme="dark"] .post-title,
+html[data-theme="dark"] .post-title span,
+body.dark .post-title,
+body.dark .post-title span {
   color: #b3aaff !important;
+  font-weight: normal !important;
 }
 
 
