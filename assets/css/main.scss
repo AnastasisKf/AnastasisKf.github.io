@@ -34,16 +34,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", serif !important; /* Change headline font */
 }
 
-/* --- Name Color for Light Theme (Default) --- */
-/* This rule targets both the main container AND the bolded last name */
+/* --- Name Color for Light Theme (GUARANTEED FIX) --- */
+/* This rule targets the container AND all elements inside it (like the bolded first name) */
 .navbar .navbar-brand,
-.navbar .navbar-brand strong {
+.navbar .navbar-brand * {
   color: #46398f !important; /* Your blue-violet for the light theme */
 }
 
-/* --- Name Color for Dark Theme --- */
-/* This rule ONLY applies when the site is in dark mode */
-[data-theme="dark"] .navbar .navbar-brand,
-[data-theme="dark"] .navbar .navbar-brand strong {
+/* --- Name Color for Dark Theme (GUARANTEED FIX) --- */
+/* This hyper-specific rule does the same for dark mode */
+html[data-theme="dark"] body.dark .navbar .navbar-brand,
+html[data-theme="dark"] body.dark .navbar .navbar-brand * {
   color: #b3aaff !important; /* Your lighter color for the dark theme */
 }
