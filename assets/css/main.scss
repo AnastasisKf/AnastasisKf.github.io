@@ -27,14 +27,23 @@ $max-content-width: {{ site.max_width }};
 /* --- CUSTOM FONT OVERRIDES --- */
 
 body {
-  font-size: 1.1rem !important; /* Increase body font size by 10% */
+  font-size: 1.3rem !important; /* Increase body font size by 10% */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif !important; /* Change headline font */
+  font-family: "Lora", serif !important; /* Change headline font */
 }
 
-/* This is the new rule for your name */
-.navbar .navbar-brand {
-  color: #5A4FCF !important; /* Change this hex code to your preferred color */
+/* --- Name Color for Light Theme (Default) --- */
+/* This rule targets both the main container AND the bolded last name */
+.navbar .navbar-brand,
+.navbar .navbar-brand strong {
+  color: #46398f !important; /* Your blue-violet for the light theme */
+}
+
+/* --- Name Color for Dark Theme --- */
+/* This rule ONLY applies when the site is in dark mode */
+[data-theme="dark"] .navbar .navbar-brand,
+[data-theme="dark"] .navbar .navbar-brand strong {
+  color: #46398f !important; /* Your lighter color for the dark theme */
 }
