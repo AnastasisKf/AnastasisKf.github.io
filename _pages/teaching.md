@@ -14,7 +14,7 @@ During my PhD I gained teaching experience as a teaching assistant in the follow
 - **Labour Economics**, (Bacehelor)
     Universidad Carlos III de Madrid, 2021-2023
 
-- **Mathematics I**,  (Bacehelor)
+- **Mathematics I**,  (Bachelor)
     Universidad Carlos III de Madrid, 2019-2020
 
 
