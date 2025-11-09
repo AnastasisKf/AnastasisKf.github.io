@@ -10,8 +10,9 @@ nav_order: 2
 
 ## **Efficiency and Redistributive Effects of Progressive Housing Taxation (JMP)** 
 #### joint with Bohdan Kalinichenko
-<small><em> [Download draft (PDF)](/assets/pdf/DraftProgHousingTaxation.pdf)
+<small><em> [Download draft (PDF)](/assets/pdf/ProgHousingTaxation_KoufakisKalinichenko.pdf)
 <br> 
+
 
 <!--[Paper PDF](/assets/pdf/JMP.pdf) | [Code & Data](https://github.com/your-username/your-repo)-->
 
