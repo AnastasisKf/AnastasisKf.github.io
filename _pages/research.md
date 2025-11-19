@@ -29,8 +29,7 @@ Is it optimal to introduce progressivity in housing taxation? We explore this qu
 <!--### Other Working Papers-->
 
 ## **Wealth-Age Dynamics, the Housing Cycle and the Recession in Spain**
-<small><em>Draft coming soon</em></small>
-<br>
+<small><em> [Download (old) draft (PDF)](/assets/pdf/HousingCycleKoufakis.pdf) | new draft coming in November 2025<br>
 
 <!--[Paper PDF](/assets/pdf/Paper2.pdf)-->
 <div class="abstract">
