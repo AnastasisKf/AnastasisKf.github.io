@@ -8,7 +8,10 @@ module ExternalPosts
   class ExternalPostsGenerator < Jekyll::Generator
     safe true
     priority :high
-
+    
+    # Skip external feed fetching in CI to avoid build failures
+    return if ENV['CI'] == 'true' || ENV['FETCH_EXTERNAL'] == 'false'
+    
     def generate(site)
       if site.config['external_sources'] != nil
         site.config['external_sources'].each do |src|
